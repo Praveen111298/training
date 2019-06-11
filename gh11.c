@@ -4,7 +4,7 @@
  
         int number[30];
  
-        int i, j, a, n,sum;
+        int i, j, a, n,sum=0;
         //printf("Enter the value of N\n");
         scanf("%d", &n);
  
@@ -38,5 +38,6 @@
  }else{
 	 printf("0");
  
+    }
     }
 
