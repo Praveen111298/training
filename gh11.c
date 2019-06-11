@@ -5,10 +5,10 @@
         int number[30];
  
         int i, j, a, n;
-        printf("Enter the value of N\n");
+        //printf("Enter the value of N\n");
         scanf("%d", &n);
  
-        printf("Enter the numbers \n");
+     //   printf("Enter the numbers \n");
         for (i = 0; i < n; ++i)
 	        scanf("%d", &number[i]);
  
