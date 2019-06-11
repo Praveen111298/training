@@ -50,7 +50,8 @@ maxj = j;
    for(i=maxi;i>maxi-max;i--){
        for(j=maxj;j>maxj-max;j--){
            printf("1 ");
-       }printf("\n");
+       }
+      printf("\n");
    }
     
 }
@@ -65,4 +66,4 @@ scanf("%d ",&M[i][j]);
 // printf("\n");
 }
 printMaxSubSquare(M,R,C);
-getchar(); }
+ }
