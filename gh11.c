@@ -4,7 +4,7 @@
  
         int number[30];
  
-        int i, j, a, n;
+        int i, j, a, n,sum;
         //printf("Enter the value of N\n");
         scanf("%d", &n);
  
@@ -26,13 +26,17 @@
                 }
             }
         }
- 
+         for(i=0;i<n;i++){
+		 sum=sum+number[i];
+	 }
       //  printf("The numbers arranged in descending order are given below\n");
- 
+ if(sum!=0){
         for (i = 0; i < n; ++i) 
         {
             printf("%d",number[i]);
         }
+ }else{
+	 printf("0");
  
     }
 
